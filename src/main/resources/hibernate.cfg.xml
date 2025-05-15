@@ -19,5 +19,9 @@
 
         <!-- Automatically create/drop tables -->
         <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <mapping class="food_order.entity.Seller"/>
+        <mapping class="food_order.entity.Costumer"/>
+        <mapping class="food_order.entity.Deliverer"/>
     </session-factory>
 </hibernate-configuration>
